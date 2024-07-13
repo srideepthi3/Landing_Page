@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Company Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    footer {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer p {
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    .feature {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .feature img {
+      width: 100px;
+      height: 100px;
+      margin-right: 20px;
+      border-radius: 50%;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .feature figcaption {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Company</h1>
+  </header>
+
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non nunc vel neque fringilla aliquet. Mauris auctor condimentum mauris, nec eleifend neque vestibulum id. Ut consequat libero non nulla auctor sodales. Duis bibendum nisi at velit auctor aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tristique turpis sed aliquam elementum.</p>
+    <p>Donec id nisl arcu. Nullam semper risus vitae neque consequat facilisis. Fusce euismod urna quis mauris sagittis, nec pharetra justo malesuada. Curabitur consequat elit eu est fermentum, sed vestibulum dui laoreet. Nam scelerisque dui ut tellus finibus, non condimentum neque molestie. Suspendisse a sapien eget dui finibus viverra at eu arcu.</p>
+
+    <div class="feature">
+      <img src="all.jpeg" alt="Feature Image 1">
+      <figcaption>Feature 1</figcaption>
+    </div>
+
+    <div class="feature">
+      <img src="quality.jpeg" alt="Feature Image 2">
+      <figcaption>Feature 2</figcaption>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Company Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
